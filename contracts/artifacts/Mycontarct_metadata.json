@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Mycontact.sol": {
-			"keccak256": "0x87d443f816c28cd0072667d67cb7ffe985a4203491ffdf533dd7ec75549f36cd",
+			"keccak256": "0xd75d15306c6871316f7b269d3c1f9cedb2c07cda7ce5a16fc9ca051f86f0ca9f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://066f4e49e5d372f24a1cb2d8ceed5b1e91ebbfd72c8209f1634304340651f1b3",
-				"dweb:/ipfs/QmRiXpoeQbHw2dSGDWFFXPYYfpXgweQewx8ybfm3UgAftL"
+				"bzz-raw://e8f400ba8d272b5d1633171cf0a03c4fb01126ba7e9859d9ecb4942c739a2046",
+				"dweb:/ipfs/QmZGBP9sjT1NqjoyrBDXKkKLkSxoiGJS7TfeDQiCW1bc12"
 			]
 		}
 	},
