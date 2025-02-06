@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "testString",
+				"name": "myBool",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_myString",
-						"type": "string"
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
 					}
 				],
-				"name": "updateTestString",
+				"name": "setBool",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessanger.sol": "Mycontarct"
+			"contracts/ExampleBoolean1.sol": "ExampleBoolean"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessanger.sol": {
-			"keccak256": "0x4deef255ceb7fa3ad1e16246c90f90f884f5abb1add10e12ff3777a6f1676e33",
+		"contracts/ExampleBoolean1.sol": {
+			"keccak256": "0xd21f0cfa2b7e76442d03d4cee9200b5db5148e79b9f0ecf92b9f30a343acc408",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eee5c642d818c6c17839b1ae3823ff02d0896e6ed541938e01fe05e45a421ae7",
-				"dweb:/ipfs/QmckTyYriyBpJfKWjibA73TWQmcEWoGRVo82VGYmPxiuAv"
+				"bzz-raw://4e6d90840ce2fcf41eaa8f39c01e2d410fe940f970897487350b40c4d7252fe8",
+				"dweb:/ipfs/QmV1zPjLYifac9n8TLVxKkc7eKD7GWdgf4H23J4X79kMhi"
 			]
 		}
 	},

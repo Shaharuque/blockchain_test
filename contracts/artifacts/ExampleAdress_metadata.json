@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessanger.sol": "Mycontarct"
+			"contracts/ExampleAdress.sol": "ExampleAdress"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessanger.sol": {
-			"keccak256": "0x4deef255ceb7fa3ad1e16246c90f90f884f5abb1add10e12ff3777a6f1676e33",
+		"contracts/ExampleAdress.sol": {
+			"keccak256": "0x21c77920f9eb73c49c9108da67b524a4f531666184a3f11be27d46ceca574ef8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eee5c642d818c6c17839b1ae3823ff02d0896e6ed541938e01fe05e45a421ae7",
-				"dweb:/ipfs/QmckTyYriyBpJfKWjibA73TWQmcEWoGRVo82VGYmPxiuAv"
+				"bzz-raw://4ab1e5028fc27b124d1d76988628d3f9b723496d19e6e610cee5068228d35312",
+				"dweb:/ipfs/QmSsAx65fYCwoyFcZ89R192UadwiHHY6H9yxKujUNevsMP"
 			]
 		}
 	},

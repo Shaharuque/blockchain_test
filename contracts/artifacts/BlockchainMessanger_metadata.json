@@ -7,6 +7,37 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "testString",
 				"outputs": [
 					{
@@ -26,7 +57,7 @@
 						"type": "string"
 					}
 				],
-				"name": "updateTestString",
+				"name": "updatingStringFunc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessanger.sol": "Mycontarct"
+			"contracts/BlockchainMessanger.sol": "BlockchainMessanger"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -60,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/BlockchainMessanger.sol": {
-			"keccak256": "0x4deef255ceb7fa3ad1e16246c90f90f884f5abb1add10e12ff3777a6f1676e33",
+			"keccak256": "0x646ef696bcdef3caef0da8740fb2a0aed6e49e41d9f634578841a09a08d4b115",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eee5c642d818c6c17839b1ae3823ff02d0896e6ed541938e01fe05e45a421ae7",
-				"dweb:/ipfs/QmckTyYriyBpJfKWjibA73TWQmcEWoGRVo82VGYmPxiuAv"
+				"bzz-raw://b2f336652c808b4de9f3872b6a81ef96de658915130f1d33a7657ef14a516c20",
+				"dweb:/ipfs/QmcgoKKrmnDNA5e72Meno3mKFGeVZhPxJxfmc723d6Etww"
 			]
 		}
 	},
