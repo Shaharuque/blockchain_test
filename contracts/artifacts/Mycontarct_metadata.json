@@ -7,28 +7,55 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "testString",
+				"name": "balanceReceived",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "contactTotalBalance",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_myString",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "updateTestString",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceFromCaller",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessanger.sol": "Mycontarct"
+			"contracts/SmartMoney.sol": "Mycontarct"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessanger.sol": {
-			"keccak256": "0x4deef255ceb7fa3ad1e16246c90f90f884f5abb1add10e12ff3777a6f1676e33",
+		"contracts/SmartMoney.sol": {
+			"keccak256": "0x4d37fa6ec9c0bb30475f6867a09f22a65701657de7a2e4ce936cd8e3aaccb473",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eee5c642d818c6c17839b1ae3823ff02d0896e6ed541938e01fe05e45a421ae7",
-				"dweb:/ipfs/QmckTyYriyBpJfKWjibA73TWQmcEWoGRVo82VGYmPxiuAv"
+				"bzz-raw://666f42b5e23ec06baa070e0fb16ebad3cc7c95216c03bf11db72e631c7f23849",
+				"dweb:/ipfs/QmSGeCaekBQfi7VotgEVPCbxjgsda8cSx59PhELxJioCqA"
 			]
 		}
 	},
