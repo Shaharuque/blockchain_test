@@ -6,6 +6,13 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "depositAmount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -13,27 +20,7 @@
 						"type": "address"
 					}
 				],
-				"name": "balances",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "depositFromAddress",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalanceFromCaller",
+				"name": "receivedBalances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -53,33 +40,13 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "partialWithdraw",
+				"name": "withdrawAmount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "userWithdraw",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -96,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartMoneyV2.sol": "SmartMoneyV2"
+			"contracts/ExampleRequire.sol": "ExampleRequire"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -110,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartMoneyV2.sol": {
-			"keccak256": "0x23985ef2b0d6e928813c862e50d3e795f6d37b49c8ce4824f1873461b80e49bb",
+		"contracts/ExampleRequire.sol": {
+			"keccak256": "0xc6d2f929615f2397d666d41323e337011bd4ad8efad2b94b27be84f150834f50",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://864ff66f5c5ba63f0b4c7599fb568198b34b3b92a746db59aeeebab5e44c9946",
-				"dweb:/ipfs/QmSh3wEE2JweS6D4PsEKuS7RVujWv5f28tYdM1khrZFSJT"
+				"bzz-raw://56fae7108cc591a694197c5d048b34f1ac8361e87ed3a6b04770d3cb76727e94",
+				"dweb:/ipfs/QmTmyfJvMvxQKHkcWgLtmkfRgSLGDVgPjdKccvu7oJ5Cp1"
 			]
 		}
 	},

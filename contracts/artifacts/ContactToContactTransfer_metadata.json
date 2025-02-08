@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContactToContactTransfer.sol": "ContactToContactTransfer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContactToContactTransfer.sol": {
+			"keccak256": "0xd7f880121554fc9e5a53b5ab56c345d933881c54f2027519660166e18f405b5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84c14dc981f5837ebb834b1abf315427a193bf94a0c097acad3425277d2dabe2",
+				"dweb:/ipfs/QmShPVbVbrAQg7zqRDd7Nt4b6weGinTGUbaYxGZsykHcxF"
+			]
+		}
+	},
+	"version": 1
+}

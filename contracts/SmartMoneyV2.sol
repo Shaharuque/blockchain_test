@@ -33,6 +33,7 @@ contract SmartMoneyV2 {
     //withdraw partial amount of user address
     function partialWithdraw(address payable _to, uint _amount) public{
         require(_amount <= balances[msg.sender], "Not enough funds");
+        balances[_to]-=_amount;
         //sending amount to the calling address user
         _to.transfer(_amount);
     }

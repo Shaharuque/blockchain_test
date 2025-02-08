@@ -13,11 +13,21 @@
 						"type": "address"
 					}
 				],
-				"name": "balances",
+				"name": "balanceReceived",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalNumberOfDeposits",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalNumberOfWithdraw",
 						"type": "uint256"
 					}
 				],
@@ -26,22 +36,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "depositFromAddress",
+				"name": "depositFunc",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalanceFromCaller",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -53,33 +50,13 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "partialWithdraw",
+				"name": "withdrawFunc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "userWithdraw",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -96,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SmartMoneyV2.sol": "SmartMoneyV2"
+			"contracts/MappingStructExample.sol": "MappingStructExample"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -110,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SmartMoneyV2.sol": {
-			"keccak256": "0x23985ef2b0d6e928813c862e50d3e795f6d37b49c8ce4824f1873461b80e49bb",
+		"contracts/MappingStructExample.sol": {
+			"keccak256": "0x7eb6e868e232e2b68e3748d43c50e16f5c01ec5ca78b07a858dce8697eed062b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://864ff66f5c5ba63f0b4c7599fb568198b34b3b92a746db59aeeebab5e44c9946",
-				"dweb:/ipfs/QmSh3wEE2JweS6D4PsEKuS7RVujWv5f28tYdM1khrZFSJT"
+				"bzz-raw://f011833b53bd3a2b8b9fb9cc98509c965a294dbe1bc3ab3b913a2201e91096e0",
+				"dweb:/ipfs/QmeQAqeco9Mj8XPFcwSMR9gpcUskkqnge6pDfBKBcWTxR1"
 			]
 		}
 	},
