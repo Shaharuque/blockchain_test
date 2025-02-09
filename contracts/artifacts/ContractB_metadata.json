@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContactToContactTransfer.sol": "ContractB"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContactToContactTransfer.sol": {
+			"keccak256": "0xfc5736ebcaab06d1eada13f19ad872fdbb5adf4ff2e8ad4f0ea8fedaca42a588",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ccd8398f5a28eec7e653c9f1974f56e4f0e2b2f47bed7bd7d4b9d25e74979a44",
+				"dweb:/ipfs/QmVokhPLnPSnPe9iMGaBJrN3Bt3g39Cs7J1B1LvHYwnbH5"
+			]
+		}
+	},
+	"version": 1
+}
